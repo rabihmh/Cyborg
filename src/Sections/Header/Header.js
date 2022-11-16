@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.png'
 import NavItem, {NavItemDropdown} from "../../components/NavItem/NavItem";
 import {Link} from "react-router-dom";
 
-export const Header = (props) => {
+export const Header = () => {
     return (
         <>
             <div className="navbar navbar-expand-md navbar-dark cyborg-navbar">
